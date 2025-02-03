@@ -2,7 +2,7 @@ package br.com.alura.screenmatch.modelos;
 
 public class Titulo {
     private boolean incluidoNoPlano;
-    private int duracaoEmMinuto;
+    private int DuracaoEmMinutos;
     private String nome;
     private int anoDeLancamento;
     private double somaDasValiacoes;
@@ -17,8 +17,8 @@ public class Titulo {
     public void setanoDeLancamento(int anoDeLancamento) {
         this.anoDeLancamento = anoDeLancamento;
     }
-    public void setDuracaoEmMinutos(int duracaoEmMinutos) {
-        this.duracaoEmMinuto = duracaoEmMinutos;
+    public void setDuracaoEmMinutos(int DuracaoEmMinutos) {
+        this.DuracaoEmMinutos = DuracaoEmMinutos;
     }
     public void setIncluidoNoPlano(boolean incluidoNoPlano) {
         this.incluidoNoPlano = incluidoNoPlano;
@@ -39,4 +39,35 @@ public class Titulo {
 
     }
 
+    public boolean isIncluidoNoPlano() {
+        return incluidoNoPlano;
+    }
+
+    public int getDuracaoEmMinutos() {
+        return DuracaoEmMinutos;
+    }
+
+    public String getNome() {
+        return nome;
+    }
+
+    public int getAnoDeLancamento() {
+        return anoDeLancamento;
+    }
+
+    public void setAnoDeLancamento(int anoDeLancamento) {
+        this.anoDeLancamento = anoDeLancamento;
+    }
+
+    public double getSomaDasValiacoes() {
+        return somaDasValiacoes;
+    }
+
+    public void setSomaDasValiacoes(double somaDasValiacoes) {
+        this.somaDasValiacoes = somaDasValiacoes;
+    }
+
+    public void setTotalDeAvaliacao(int totalDeAvaliacao) {
+        this.totalDeAvaliacao = totalDeAvaliacao;
+    }
 }
